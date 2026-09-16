@@ -39,3 +39,16 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# 원본 사내 규정 PDF/엑셀 — 실명·재무 정보 등이 그대로 담겨 있어 저장소에 올리지 않는다.
+# (챗봇 학습 내용은 src/data 아래에 개인정보를 제거하고 옮겨 담은 텍스트로만 커밋한다.)
+/policy/
+
+# 로컬 개발 도구 설정/상태 (머신별 경로, 세션 로그 등 — 앱 실행에는 불필요)
+/.claude/
+/.agents/
+/.bkit/
+skills-lock.json
+
+# Supabase CLI 로컬 캐시(머신별)
+/supabase/.temp/

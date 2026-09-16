@@ -13,8 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Jeisian 회사생활 도우미",
-  description: "사내 인사·복지·오피스 환경·근무지원 제도를 규정과 공지사항에 근거해 안내하는 챗봇",
+  title: "Jessica",
+  description: "밝고 상냥한 회사생활 상담사 Jessica가 인사·복지·오피스 환경·근무지원 제도를 규정과 공지사항에 근거해 안내합니다",
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
